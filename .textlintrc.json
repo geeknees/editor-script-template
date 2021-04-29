@@ -25,7 +25,6 @@
             "space": "always"
         }
     },
-    "terminology": true,
     "write-good": {
       "passive": false,
       "thereIs": false
