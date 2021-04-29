@@ -3,6 +3,32 @@
     "comments": true
   },
   "rules": {
-    "no-todo": true
+    "@textlint-rule/no-unmatched-pair": true,
+    "@proofdict/proofdict": {
+      "dictURL": "https://azu.github.io/proof-dictionary/"
+    },
+    "apostrophe": true,
+    "en-spell": {
+      "personalDictionary": [
+        "textlint",
+        "JavaScript"
+      ]
+    },
+    "date-weekday-mismatch": true,
+    "ja-no-abusage": true,
+    "ja-no-orthographic-variants": true,
+    "ja-unnatural-alphabet": true,
+    "no-mix-dearu-desumasu": true,
+    "preset-japanese": true,
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+            "space": "always"
+        }
+    },
+    "terminology": true,
+    "write-good": {
+      "passive": false,
+      "thereIs": false
+    }
   }
 }
